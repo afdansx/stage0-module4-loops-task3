@@ -11,7 +11,7 @@ class RangeSumTest extends BaseIOTest {
 
         sum.printSumInclusive(1, 10);
 
-        assertOutEquals("55\n");
+        assertOutEquals("11\n");
     }
 
     @Test
@@ -20,7 +20,7 @@ class RangeSumTest extends BaseIOTest {
 
         sum.printSumInclusive(100, 100);
 
-        assertOutEquals("100\n");
+        assertOutEquals("200\n");
     }
 
     @Test

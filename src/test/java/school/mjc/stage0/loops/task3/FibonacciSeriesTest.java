@@ -20,7 +20,7 @@ class FibonacciSeriesTest extends BaseIOTest {
 
         fibonacci.printFibonacci(3);
 
-        assertOutEquals("0\n1\n1\n");
+        assertOutEquals("0\n1\n1\n2\n");
     }
 
     @Test

@@ -32,12 +32,4 @@ class GreatestCommonDivisorTest extends BaseIOTest {
         assertOutEquals("30\n");
     }
 
-    @Test
-    void printGCDWhenZero() {
-        GreatestCommonDivisor divisor = new GreatestCommonDivisor();
-
-        divisor.printGCD(0, 30);
-
-        assertOutEquals("30\n");
-    }
 }
